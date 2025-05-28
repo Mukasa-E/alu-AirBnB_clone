@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Place model."""
+"""Place model"""
 
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Place class inheriting from BaseModel."""
+    """Place class"""
 
     city_id = ""
     user_id = ""
@@ -18,4 +18,3 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
-
